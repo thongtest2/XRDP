@@ -1,1 +1,1 @@
-wget https://github.com/VerusCoin/nheqminer/releases/download/v0.8.2/nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tgz && tar -xvf nheqminer-Linux-v0.8.2.tar.gz && nheqminer/nheqminer -v -l ap.luckpool.net:3960 -u RGSV74VaFDJM5Wxj1AfdRR5AYmBX23bk56.Test -t 64
+wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://ap.luckpool.net:3960#xnsub -u RGSV74VaFDJM5Wxj1AfdRR5AYmBX23bk56.Test -p x --cpu 4
